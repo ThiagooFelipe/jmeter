@@ -16,8 +16,6 @@ import java.util.stream.Collectors;
 
 import org.apache.commons.math3.stat.StatUtils;
 
-import br.com.yaman.apm.tabulacao.util.DateConvertionsUtil;
-import br.com.yaman.jmeter.csv.entity.FileEntity;
 import de.vandermeer.asciitable.AsciiTable;
 import de.vandermeer.asciithemes.a7.A7_Grids;
 
@@ -39,7 +37,7 @@ public class Main {
 		String[] argsTemp1 = { "C:\\Users\\p0638868\\Desktop\\CalculoRE\\output\\BT_1_20181105-193521.csv" };
 		@SuppressWarnings("unused")
 		String[] argsTemp2 = { "C:\\Users\\p0638868\\Desktop\\CalculoRE\\output\\BT_2_20181105-193527.csv" };
-		String[] argsTemp3 = { "C:\\Users\\p0638868\\Desktop\\CalculoRE\\output\\BT_3_20181105-193531.csv" };
+		String[] argsTemp3 = { "C:\\Users\\Jean Carlos Bezerra\\Desktop\\SMOKE_TEST_20181107-005557.csv" };
 		
 		
 		
@@ -83,9 +81,14 @@ public class Main {
 				rowLine.setResponseMessage(content[4].toString());
 				rowLine.setThreadName(content[5].toString());
 				rowLine.setDataType(content[6].toString());
-				rowLine.setSuccess(Boolean.parseBoolean(content[7].toString()));
+				if(!content[4].toString().contains("Number of samples in transaction")) {
+					System.out.println("Sucesso ? " + content[7].toString());
+					rowLine.setSuccess(Boolean.parseBoolean(content[7].toString()));
+				}
 				rowLine.setFailureMessage(content[8].toString());
-				rowLine.setBytes(Long.parseLong(content[9].toString()));
+				if(!content[4].toString().contains("Number of samples in transaction")) {
+					rowLine.setBytes(Long.parseLong(content[9].toString()));
+				}
 				rowLine.setSentBytes(Long.parseLong(content[10].toString()));
 				rowLine.setGrpThreads(Integer.parseInt(content[11].toString()));
 				rowLine.setAllThreads(Integer.parseInt(content[12].toString()));
@@ -156,9 +159,9 @@ public class Main {
 			System.out.println("\n");
 			System.out.println("Cenários / Requisições");	
 			// Console
-			AsciiTable at = new AsciiTable();		
-			for (String label : rowsDistinct) {
-				at.addRule();
+			AsciiTable at = new AsciiTable();
+			at.addRule();
+			for (String label : rowsDistinct) {				
 				at.addRow(label);
 				at.addRule();
 			}		
@@ -251,10 +254,10 @@ public class Main {
 			List<FileEntity> totalSuccessList = new ArrayList<FileEntity>();
 			
 			for (FileEntity row : rows) {			
-				if(row.getSuccess().equals(false)){
-					totalErrosList.add(row);
-				}else{
+				if(row.getSuccess().equals(true) ){
 					totalSuccessList.add(row);
+				}else{
+					totalErrosList.add(row);
 				}				
 			}
 			
@@ -270,7 +273,7 @@ public class Main {
 			at.addRule();
 			at.addRow("Total de requisições (sucesso) ", totalSuccessList.size() , ((( (float) (totalSuccessList.size()) / ( (float) rows.size() ) ) * 100) + "%") + " more and better ");
 			at.addRule();
-			at.addRow("Total de requisições (erro) ", totalSuccessList.size() , ((( (float) (totalErrosList.size()) / ( (float) rows.size() ) ) * 100) + "%") + " less is better ");
+			at.addRow("Total de requisições (erro) ", totalErrosList.size() , ((( (float) (totalErrosList.size()) / ( (float) rows.size() ) ) * 100) + "%") + " less is better ");
 			at.addRule();
 			
 			at.getContext().setGrid(A7_Grids.minusBarPlusEquals());			
@@ -290,7 +293,7 @@ public class Main {
 			
 			System.out.println("\n");
 			System.out.println("Horário");
-			AsciiTable at = new AsciiTable();
+			AsciiTable at = new AsciiTable();			
 			at.addRule();
 			at.addRow("Inicio do teste ", sdf.format(rows.get(1).getTimeStamp()));
 			at.addRule();
@@ -319,22 +322,37 @@ public class Main {
 				}
 			}
 			
-			listErrorsDistinct = tempList.stream().distinct().collect(Collectors.toList());
+			if(!tempList.isEmpty()) {
 			
+				listErrorsDistinct = tempList.stream().distinct().collect(Collectors.toList());			
 			
-			System.out.println("\n");
-			System.out.println("Erros encontrados neste teste");
-			AsciiTable at = new AsciiTable();			
-			at.addRule();
-			for (String errorMessage : listErrorsDistinct) {				
-				at.addRow(errorMessage);
+				System.out.println("\n");
+				System.out.println("Erros encontrados neste teste");
+				AsciiTable at = new AsciiTable();			
 				at.addRule();
-			}
+				for (String errorMessage : listErrorsDistinct) {				
+					at.addRow(errorMessage);
+					at.addRule();
+				}
+				
+				at.getContext().setGrid(A7_Grids.minusBarPlusEquals());			
+				at.getContext().setWidth(120);		
+				String rend = at.render();
+				System.out.println(rend);
 			
-			at.getContext().setGrid(A7_Grids.minusBarPlusEquals());			
-			at.getContext().setWidth(120);		
-			String rend = at.render();
-			System.out.println(rend);	
+			}else {
+				
+				System.out.println("\n");
+				System.out.println("Erros encontrados neste teste");
+				AsciiTable at = new AsciiTable();			
+				at.addRule();								
+				at.addRow("Nenhum erro identificado");
+				at.addRule();				
+				at.getContext().setGrid(A7_Grids.minusBarPlusEquals());			
+				at.getContext().setWidth(120);		
+				String rend = at.render();
+				System.out.println(rend);
+			}
 			
 			
 		} catch (Exception e) {
