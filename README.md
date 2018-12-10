@@ -34,8 +34,7 @@
 
 ### Conversão de Date e Calendar
 
-´´´java
-
+´´´
 public class JmeterExample{
 
 	public static void example(){
