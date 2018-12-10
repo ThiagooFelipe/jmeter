@@ -35,30 +35,21 @@
 ### Conversão de Date e Calendar
 
 ```java
-public class JmeterExample{
-	public static void example(){
-	
-			Date date = new Date();
-			date.setDate(22);
-			date.setHours(22);
-			date.setMinutes(00);
-			date.setSeconds(00);			
-			date.setMonth(10);
-			date.setYear(2018);
-			
-			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.sss");
-			Calendar now = Calendar.getInstance();
-			now.setTime(date);
-			Calendar nowBackup = now;
-			
-			now.add(Calendar.SECOND, 30);
-			
-			
-			System.out.println("Now : " + now.getTime());
-			System.out.println("Now Backup: " + nowBackup.getTime());
-			
-		}
-}
+	Date date = new Date();
+	date.setDate(22);
+	date.setHours(22);
+	date.setMinutes(00);
+	date.setSeconds(00);			
+	date.setMonth(10);
+	date.setYear(2018);
+		
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss.sss");
+	Calendar now = Calendar.getInstance();
+	now.setTime(date);
+	Calendar nowBackup = now;			
+	now.add(Calendar.SECOND, 30);			
+	System.out.println("Now : " + now.getTime());
+	System.out.println("Now Backup: " + nowBackup.getTime());
 ```
 
 
