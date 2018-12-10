@@ -52,4 +52,43 @@
 	System.out.println("Now Backup: " + nowBackup.getTime());
 ```
 
+### Calculo do Percentil em Java (Commons Math - JMeter Compatible))
 
+Use `ELAPSED` field from your Agregation Report of JMeter
+
+```java
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
+
+public class MainDescritivo {
+	public static void main(String[] args) {
+		try {
+			
+			List<Integer> listFromCSV = new ArrayList<Integer>();			
+			BufferedReader bufferedReader = new BufferedReader(new FileReader(args[0]));
+			String line = "";
+			while ((line = bufferedReader.readLine()) != null) {
+				String content = line;				
+				int value = Integer.parseInt(content);				
+				listFromCSV.add(value);
+			}		
+			bufferedReader.close();			
+			
+			DescriptiveStatistics descriptiveStatistics = new DescriptiveStatistics();			
+			for (Integer valueFor : listFromCSV) {
+				descriptiveStatistics.addValue(valueFor);
+			}
+			
+			float value = (float) descriptiveStatistics.getPercentile(90);			
+			System.out.println(value);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}	
+	}
+}
+```
