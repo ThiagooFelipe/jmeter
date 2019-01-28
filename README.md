@@ -4,6 +4,10 @@
 
 `http://www.vandermeer.de/projects/skb/java/asciitable/`
 
+### Omissão coordenada
+
+Omissão coordenada (Coordinated Omission), que pode lhe dar resultados errados ou imprecisos devido a falta de planejamento de um bom plano de teste junto com o correto recurso computacional para este plano de teste.
+
 ### JMeter - Saída de arquivos padrões
 
 `BT_1_${__time(yyyyMMdd-HHmmss)}.csv`
