@@ -121,3 +121,33 @@ public class MainDescritivo {
 	}
 }
 ```
+
+
+
+### Erro no JMeter SSL em chamadas de WebService SOAP
+
+Problema:
+javax.net.ssl.SSLProtocolException: handshake alert: unrecognized_name
+	at.sun.security.ssl.ClientHandshaker.handshakerAlert(Unknown Source)...
+	...
+	...
+	
+Diagnóstico:
+O 
+
+#Recomendação 1:
+
+Troque no JMeter.bat:
+De: 
+
+`set JMETER_CMD_LINE_ARGS=%*`
+
+Para:
+
+`set JMETER_CMD_LINE_ARGS=-Djsse.enableSNIExtension=false`
+
+Recomendação 2: 
+
+1) Adicione um componente no robô: JSR223 Sampler
+2) Adicione o código: `System.setProperty("jsse.enableSNIExtension", "false");`
+
