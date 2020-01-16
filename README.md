@@ -162,3 +162,13 @@ Recomendação 2:
 1) Adicione um componente no robô: JSR223 Sampler
 2) Adicione o código: `System.setProperty("jsse.enableSNIExtension", "false");`
 
+
+### Jenkins Configure
+
+|Param   	  	| EL / Value  		| Type			| Required				|
+|---	                |---	                |---			|---					|
+| Number of Threads 	| ${__P(threads,1)}	| Integer		| Yes					|
+| Ramp-Up 		| ${__P(rampup,1)}	| Integer		| Yes					|
+| Loop-Count 		| ${__P(loopCount,1)}	| Integer		| No (Set true in JMeter is default)	|
+| Duration		| ${__P(duration,1)}	| Integer (Seconds)	| Yes					|
+| Startup delay		| ${__P(startup,1)}	| Integer (Seconds)	| Yes					|
