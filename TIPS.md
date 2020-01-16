@@ -1,4 +1,4 @@
-# jmetertools
+# JMeter Tips
 
 ### ASCII Table
 
@@ -164,6 +164,8 @@ Recomendação 2:
 
 
 ### Jenkins Configure
+
+Configuracao para integracao via parametros
 
 |Param   	  	| EL / Value  		| Type			| Required				|
 |---	                |---	                |---			|---					|
