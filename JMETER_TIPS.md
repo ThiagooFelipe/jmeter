@@ -174,3 +174,4 @@ Configuracao para integracao via parametros
 | Loop-Count 		| ${__P(loopCount,1)}	| Integer		| No (Set true in JMeter is default)	|
 | Duration		| ${__P(duration,1)}	| Integer (Seconds)	| Yes					|
 | Startup delay		| ${__P(startup,1)}	| Integer (Seconds)	| Yes					|
+| Aggregate Report      | ${__P(aggregate)}	| String		| Yes					|
