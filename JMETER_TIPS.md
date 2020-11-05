@@ -36,6 +36,15 @@ Omissão coordenada (Coordinated Omission), que pode lhe dar resultados errados 
 | 10  	                | 1800  	          | 300  	        | 1500                  | 0  	            |
 | 10  	                | 2700  	          | 300  	        | 600                   | 0  	            |
 
+|Start Thread Count   	| Initial Delay, sec   	  | Startup Time, sec  	| Hold Load For, sec  	| Shutdown Time     |
+|---	                |---	                  |---	                |---	                |---	            |
+| 250   	        | 0  	                  | 300  	        | 5100                  | 0  	            |
+| 250   	        | 900  	                  | 300  	        | 4200                  | 0  	            |
+| 250  	                | 1800  	          | 300  	        | 3300                  | 0  	            |
+| 250  	                | 2700  	          | 300  	        | 2400                  | 0  	            |
+| 250  	                | 3600  	          | 300  	        | 1500                  | 0  	            |
+| 250  	                | 4500  	          | 300  	        | 600                   | 0  	            |
+
 ### JMeter - Ultimate Thread Group - Stress Test
 
 |Start Thread Count   	| Initial Delay, sec   	| Startup Time, sec  	| Hold Load For, sec  	| Shutdown Time  	|
