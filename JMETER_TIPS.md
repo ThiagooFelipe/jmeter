@@ -161,6 +161,8 @@ Troque no JMeter.bat:
 De: 
 
 `set JMETER_CMD_LINE_ARGS=%*`
+OU
+`set SYSTEM_PROPS=-Djava.security.egd=file:/dev/urandom -Djsse.enableSNIExtension=false`
 
 Para:
 
