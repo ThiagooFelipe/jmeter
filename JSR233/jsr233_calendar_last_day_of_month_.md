@@ -28,3 +28,9 @@ vars.put("LAST_DAY_OF_MONTH", lastDayOfActualMonth.toString());
 vars.put("ACTUAL_MONTH", actualMonth.toString());
 vars.put("ACTUAL_YEAR", actualYear.toString());
 ```
+
+## Para o componente não ser exibido nos Listerners, utilize um JSR223 PostProcessor com o seguinte script
+
+```java
+prev.setIgnore();
+```
