@@ -66,6 +66,16 @@ Omissão coordenada (Coordinated Omission), que pode lhe dar resultados errados 
 
 ### JMeter - HTTP Head Manager (REST JSON Requests)
 
+`Content-Type: application/json` <br/>
+`Accept: application/json` <br/>
+`Accept-Encoding: gzip, deflate` <br/>
+`Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7` <br/>
+`Cache-Control: no-cache` <br/>
+`Connection: keep-alive` <br/>
+`User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36`
+
+
+`Content-Type: application/json;charset=UTF-8` <br/>
 `Accept: application/json` <br/>
 `Accept-Encoding: gzip, deflate` <br/>
 `Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7` <br/>
