@@ -3,7 +3,7 @@
 ## Links
 
 - PerfMon (https://jmeter-plugins.org/?search=jpgc-perfmon)
-- PerfMon Agenta (https://github.com/undera/perfmon-agent)
+- PerfMon Agent (https://github.com/undera/perfmon-agent)
 - Concurrency Thread Group (https://jmeter-plugins.org/wiki/ConcurrencyThreadGroup/)
 - Ultimate Thread Group (https://jmeter-plugins.org/?search=jpgc-casutg)
 
