@@ -1,7 +1,10 @@
-# JMeter Tips
+# Jean - JMeter
 
 ## Refs
 
+## Importante
+
+Seus recursos de hardware, bem como o design do plano de teste, afetarão o número de threads que você pode executar com eficácia com o JMeter. O número também dependerá da velocidade do seu servidor (um servidor mais rápido faz com que o JMeter trabalhe mais, pois retorna uma resposta mais rápida). Como acontece com qualquer ferramenta de teste de carga, se você não dimensionar corretamente o número de threads, enfrentará o problema de "Omissão coordenada", que pode fornecer resultados errados ou imprecisos. Se você precisar de teste de carga em grande escala, considere executar várias instâncias CLI JMeter em várias máquinas usando o modo distribuído (ou não). Ao usar o modo distribuído, o arquivo de resultado é combinado no nó do controlador; se estiver usando várias instâncias autônomas, os arquivos de resultado de amostra podem ser combinados para análise subsequente. Para testar o desempenho do JMeter em uma determinada plataforma, o amostrador JavaTest pode ser usado. Não requer nenhum acesso à rede, portanto, pode dar uma ideia quanto ao rendimento máximo possível.
 
 ## Gerar resultados em HTML Reports (APDEX)
 
