@@ -1,4 +1,4 @@
-# Bem-vindo(a) - Ao meu repositório do JMeter
+# Bem-vindo(a) Ao meu repositório do JMeter
 
 ## Objetivo Geral
 
