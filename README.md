@@ -12,7 +12,13 @@ jmeter -g <log file> -o <Path to output folder>
 ## Executar em linha de comando
 
 ```sh
-apache-jmeter-4.0/bin/jmeter.sh --nongui --testfile <BOT_SCRIPT> --jmeterproperty threads=<BOT_NUMBER_THREADS_SM> --jmeterproperty rampup=<COE_BOT_SMOKE_RAMPUP> --jmeterproperty duration=<BOT_SMOKE_DURATION> --jmeterproperty startup=<BOT_STARTUPDELAY> --jmeterproperty aggregate=load-test.csv --loglevel jmeter.util=DEBUG
+jmeter.sh --nongui --testfile <BOT_SCRIPT>
+  --jmeterproperty threads=<BOT_NUMBER_THREADS_SM>
+  --jmeterproperty rampup=<COE_BOT_SMOKE_RAMPUP>
+  --jmeterproperty duration=<BOT_SMOKE_DURATION>
+  --jmeterproperty startup=<BOT_STARTUPDELAY>
+  --jmeterproperty aggregate=load-test.csv
+  --loglevel jmeter.util=DEBUG
 ```
 
 ## Melhore o desempenho dos scripts utilizando estas técnicas (Regras)
