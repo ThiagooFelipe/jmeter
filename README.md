@@ -12,7 +12,7 @@ jmeter -g <log file> -o <Path to output folder>
 ## Melhore o desempenho dos scripts utilizando estas técnicas (Regras)
 
 <ol>
-  <li>Use o modo CLI.</li>
+  <li>Use o modo CLI (jmeter -n -t test.jmx -l test.jtl).</li>
   <li>Use o mínimo de Listeners possível, se estiver usando o sinalizador -l na linha de comando, todos os Listeners podem ser excluídos ou desabilitados.</li>
   <li>Não use os ouvintes "View Results Tree" ou "View Results in Table" durante o teste de carga, use-os apenas durante a fase de script para depurar seus scripts.</li>
   <li>Em vez de usar muitos amostradores semelhantes, use o mesmo amostrador em um loop e use variáveis (Conjunto de dados CSV) para variar a amostra. [O controlador de inclusão não ajuda aqui, pois adiciona todos os elementos de teste do arquivo ao plano de teste.]</li>
