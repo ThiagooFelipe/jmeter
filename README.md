@@ -1,6 +1,8 @@
-# Jean - JMeter
+# Bem-vindo(a) - Ao meu repositório do JMeter
 
 ## Objetivo Geral
+
+Centralizar conhecimento sobre a ferramenta JMeter
 
 ## Importante
 
