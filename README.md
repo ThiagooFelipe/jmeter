@@ -32,6 +32,9 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
   --jmeterproperty rampup=<COE_BOT_SMOKE_RAMPUP>
   --jmeterproperty duration=<BOT_SMOKE_DURATION>
   --jmeterproperty startup=<BOT_STARTUPDELAY>
+  --jmeterproperty protocol=<ENVIRONMENT>
+  --jmeterproperty url=<ENVIRONMENT>  
+  --jmeterproperty port=<ENVIRONMENT>
   --jmeterproperty aggregate=load-test.csv
   --loglevel jmeter.util=DEBUG
 ```
