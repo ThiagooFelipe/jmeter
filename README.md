@@ -19,7 +19,7 @@ Para testar o desempenho do JMeter em uma determinada plataforma, o amostrador J
 ## Gerar resultados em HTML Reports (APDEX)
 
 ```sh
-jmeter -g <log file> -o <Path to output folder>
+jmeter.sh -g <log file> -o <Path to output folder>
 ```
   
 ## Executar em linha de comando
