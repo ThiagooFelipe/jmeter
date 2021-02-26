@@ -12,13 +12,13 @@ jmeter -g <log file> -o <Path to output folder>
 ## Melhore o desempenho dos scripts utilizando estas técnicas (Regras)
 
 <ol>
-  <li>Use CLI mode: jmeter -n -t test.jmx -l test.jtl</li>
-  <li>Use as few Listeners as possible; if using the -l flag as above they can all be deleted or disabled.</li>
-  <li>Don't use "View Results Tree" or "View Results in Table" listeners during the load test, use them only during scripting phase to debug your scripts.</li>
-  <li>Rather than using lots of similar samplers, use the same sampler in a loop, and use variables (CSV Data Set) to vary the sample. [The Include Controller does not help here, as it adds all the test elements in the file to the test plan.]</li>
-  <li>Don't use functional mode</li>
-  <li>Use CSV output rather than XML</li>
-  <li>Only save the data that you need</li>
-  <li>Use as few Assertions as possible</li>
-  <li>Use the most performing scripting language (see JSR223 section)</li>
+  <li>Use o modo CLI.</li>
+  <li>Use o mínimo de Listeners possível, se estiver usando o sinalizador -l na linha de comando, todos os Listeners podem ser excluídos ou desabilitados.</li>
+  <li>Não use os ouvintes "View Results Tree" ou "View Results in Table" durante o teste de carga, use-os apenas durante a fase de script para depurar seus scripts.</li>
+  <li>Em vez de usar muitos amostradores semelhantes, use o mesmo amostrador em um loop e use variáveis (Conjunto de dados CSV) para variar a amostra. [O controlador de inclusão não ajuda aqui, pois adiciona todos os elementos de teste do arquivo ao plano de teste.]</li>
+  <li>Não use o modo funcional (Functional Mode).</li>
+  <li>Use a saída CSV em vez de XML.</li>
+  <li>Salve apenas os dados de que você precisa.</li>
+  <li>Use o mínimo possível de Assertivas (Assertions).</li>
+  <li>Use a linguagem de script de melhor desempenho (consulte a seção JSR223).</li>
 </ol>
