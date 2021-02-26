@@ -58,6 +58,11 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
 <ol>
   <li>Não use espacos nos nomes dos arquivos</li>
   <li>Crie pastas sem espacos e de preferencia perto da raiz do disco</li>
+  <li>Utilize servidores que possuem discos SSD sempre que possivel</li>
+  <li>Interfaces de rede acima de 1 Gigabit é obrigatório</li>
+  <li>Interfaces de rede acima de 10 Gigabit é recomendado</li>
+  <li>Processadores com o clock acima de 2.5 Ghz é obrigatório</li>
+  <li>User no minimo 2 GB de memoria para a JVM do JMeter</li>
 </ol>
 
 ## Melhore o desempenho dos scripts utilizando estas técnicas (Regras)
