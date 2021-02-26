@@ -1,6 +1,6 @@
 # Jean - JMeter
 
-## Refs
+## Objetivo Geral
 
 ## Importante
 
@@ -48,6 +48,13 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
   --loglevel
  ```
 
+## Práticas
+
+<ol>
+  <li>Não use espacos nos nomes dos arquivos</li>
+  <li>Crie pastas sem espacos e de preferencia perto da raiz do disco</li>
+</ol>
+
 ## Melhore o desempenho dos scripts utilizando estas técnicas (Regras)
 
 <ol>
@@ -61,3 +68,8 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
   <li>Use o mínimo possível de Assertivas (Assertions).</li>
   <li>Use a linguagem de script de melhor desempenho (consulte a seção JSR223).</li>
 </ol>
+
+## Refs
+
+- https://jmeter.apache.org/usermanual/best-practices.html
+- https://jmeter.apache.org/usermanual/jmeter_distributed_testing_step_by_step.html
