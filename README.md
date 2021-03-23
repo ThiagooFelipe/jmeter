@@ -76,7 +76,7 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
   <li>Use a saída CSV em vez de XML.</li>
   <li>Salve apenas os dados de que você precisa.</li>
   <li>Use o mínimo possível de Assertivas (Assertions).</li>
-  <li>Use a linguagem de script de melhor desempenho (consulte a seção JSR223).</li>
+  <li>Use a linguagem de script de melhor desempenho (consulte a seção JSR223 - Groovy as language, compilation caching enabled).</li>
 </ol>
 
 ## Refs
