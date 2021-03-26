@@ -23,22 +23,21 @@ Para levantar qual nível de performance o seu software precisa atingir, você d
 
 Antes de ir diretamente para a tão desejada Performance, você deve entender que para obter Performance, temos que pensar em toda a jornada que um software teve que passar para ser desenvolvido, a cultura, os frameworks, as necessidades exigidas, o tamanho do projeto e os milhares de requisitos funcionais que a equipe que desenvolveu teve como trilha para entregar um software gerando e agregando valor ao negocio. Nem sempre notamos os detalhes de algo que não foi construído, criado ou revisado por nós, mas precisamos aprofundar esse contexto para descobrir quais problemas encontraremos quando almejamos ter mais performance e demais benefícios com essa nossa nova jornada, separei estes tópicos com listas para que você consiga avaliar se o software que você deseja avaliar a performance realmente será possível extrair tudo que pode ser extraído, e claro, você não se frustre com testes que só vão mostrar o que você já imaginava.
 
-#### Experiencia do usuario
-- Funcionalidades de negocios que sao complexas demais (Processos longos e cheio de formularios complexos);
-- Otimizacao do processo de remocao, inclusao;
+#### Experiência do usuário
+- Funcionalidades de negócios que são complexas demais (Processos longos e cheio de formulários complexos);
+- Otimização do processo de remoção, inclusão;
 - Garantir que processos em malha não estejam no mesmo contexto de um software online e publico;
-- Evitar validacoes exessivas visuais ao cliente final, seu software deve ser inteligente (Possuir dominios de dados, pre-cadastros, maquinas de estado que armazenam de onde ele parou, etc);
-- Evitar preenchimentos de dados excessivos, o processo deve ser inteligente e já conhecer o cliente, apenas realizar o que ele precisa e com confirmacoes rapidas;
-- Simule seu software em redes moveis, esta pratica vai te trazer uma visao sintetica de problemas comuns que ocorrem em cenarios com baixa largura de banda;
+- Evitar validações excessivas visuais ao cliente final, seu software deve ser inteligente (Possuir domínios de dados, pré-cadastros, máquinas de estado que armazenam de onde ele parou, etc);
+- Evitar preenchimentos de dados excessivos, o processo deve ser inteligente e já conhecer o cliente, apenas realizar o que ele precisa e com confirmações rápidas;
+- Simule seu software em redes moveis, esta pratica vai te trazer uma visão sintética de problemas comuns que ocorrem em cenários com baixa largura de banda;
 
 #### Otimizacao de código fonte
-- Garantir que o código fonte do software esteja em sua melhor versao (Sem bugs);
-- Validar se os testes unitarios possuem coberturas completas do codigo fonte (Validacoes automaticas de cobertura em cada nova versao);
-- Validar constantemente os testes funcionais, de integracao com outros softwares e de regressao para bugs já identificados;
-- Garantir que as versoes estejam armazenadas de forma cronologica com um historico descritivo do que foi melhorado ou adicionado na versao corrente do software;
+- Garantir que o código fonte do software esteja em sua melhor versão (Sem bugs);
+- Garantir que as versões estejam armazenadas de forma cronológica com um histórico descritivo do que foi melhorado ou adicionado na versão corrente do software;
+- Validar se os testes unitários possuem coberturas completas do codigo fonte (Validações automáticas de cobertura em cada nova versão);
+- Validar constantemente os testes funcionais, de integração com outros softwares e de regressão para bugs de incidentes já identificados e mapeados;
 
-
-Existem varias formas de validar se um software possui performance, neste artigo voce verá alguns exemplos de como cada tipo de teste pode ajudar a validar o quao é performático o seu software.
+Existem formas de validar se um software possui performance, neste artigo você verá alguns exemplos de como cada tipo de teste pode ajudar a validar o quão é performático o seu software.
 
 ## Tipos de testes de performance
 
