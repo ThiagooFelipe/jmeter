@@ -41,19 +41,21 @@ Existem formas de validar se um software possui performance, neste artigo você 
 
 ## Tipos de testes de performance
 
+Existem diferentes tipos de teste para cada necessidade de comprovacao, e nao devemos misturar os objetivos de cada um, mesmo que se pareçam. Separei os 6 mais utilizados e um que é garantia de execucao, mas que é pouco lembrado, por este motivo, vamos falar de 7.
+
 ### 1 - Load Test
 
 ### 2 - Endurence Test
 
 ### 3 - Volume Test
 
-### 4 - Smoke Test
+### 4 - Spike Test
 
 ### 5 - Scalability Test
 
-### 6 - Spike Test
+### 6 - Stress Test
 
-### 7 - Stress Test
+### 7 - Smoke Test
 
 ## Metricas de performance
 
