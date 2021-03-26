@@ -41,19 +41,19 @@ Existem formas de validar se um software possui performance, neste artigo você 
 
 ## Tipos de testes de performance
 
-### Load Test
+### 1 - Load Test
 
-### Endurence Test
+### 2 - Endurence Test
 
-### Volume Test
+### 3 - Volume Test
 
-### Smoke Test
+### 4 - Smoke Test
 
-### Scalability Test
+### 5 - Scalability Test
 
-### Spike Test
+### 6 - Spike Test
 
-### Stress Test
+### 7 - Stress Test
 
 ## Metricas de performance
 
