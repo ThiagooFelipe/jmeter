@@ -17,7 +17,7 @@ interessante da integracao legada é que varios softwares precisam se comunicar 
 
 O termo Performance é avaliado em termos de eficiência, de rendimento, de comprovacao, ou seja, para garantir que um software A tenha essas caracteristicas, precisamos realizar uma serie de testes que ajudem a comprovar estas necessidades.
 
-Para levantar qual nivel de performance o seu software precisa atingir, voce deve ter em mente qual o nivel de SLA (Acordo de nível de serviço), que prendente entregar a seu cliente final, este é o melhor indicador inicial que voce pode documentar. Quando queremos entregar muita performance, devemos explicar os motivos e em quais areas vamos atuar mais para extrair desempenho, para ajudar a focar no que devemos priorizar por uma escala de prioridades conhecidas, voce deve avaliar esta lista:
+Para levantar qual nivel de performance o seu software precisa atingir, voce deve ter em mente qual o nivel de SLA (Acordo de nível de serviço), que prendente entregar a seu cliente final, este é o melhor indicador inicial que voce pode documentar. Quando queremos entregar muita performance, devemos explicar os motivos e em quais areas do software e seu ciclo de desenvolvimento vamos atuar mais para extrair desempenho, para ajudar a focar no que devemos priorizar por uma escala de prioridades conhecidas, voce deve avaliar esta lista:
 
 #### Experiencia do usuario
 - Funcionalidades de negocios que sao complexas demais (Processos longos e cheio de formularios complexos);
