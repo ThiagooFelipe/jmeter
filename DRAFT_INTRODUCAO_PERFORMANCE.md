@@ -33,7 +33,7 @@ Antes de ir diretamente para a tão desejada Performance, voce deve entender que
 - Evitar preenchimentos de dados excessivos, o processo deve ser inteligente e já conhecer o cliente, apenas realizar o que ele precisa e com confirmacoes rapidas;
 - Simule seu software em redes moveis, esta pratica vai te trazer uma visao sintetica de problemas comuns que ocorrem em cenarios com baixa largura de banda;
 
-#### Otimizacao de Código Fonte/Produto
+#### Otimizacao de código fonte
 - Garantir que o código fonte do software esteja em sua melhor versao (Sem bugs);
 - Validar se os testes unitarios possuem coberturas completas do codigo fonte (Validacoes automaticas de cobertura em cada nova versao);
 - Validar constantemente os testes funcionais, de integracao com outros softwares e de regressao para bugs já identificados;
@@ -42,15 +42,15 @@ Antes de ir diretamente para a tão desejada Performance, voce deve entender que
 
 Existem varias formas de validar se um software possui performance, neste artigo voce verá alguns exemplos de como cada tipo de teste pode ajudar a validar o quao é performático o seu software.
 
-### Tipos de Testes de Performance
+### Tipos de testes de performance
 
-### Metricas de Performance
+### Metricas de performance
 
-### Qualidade VS Performance
-
-### Monitoramento de Software
+### Monitoramento de software
 
 ### Porque devo testar sempre?
+
+### Qualidade VS Performance
 
 ### Performance VS Custos de Infraestrutura
 
