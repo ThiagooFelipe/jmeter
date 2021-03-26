@@ -1,6 +1,6 @@
 # DRAFT Introducao a Performance
 
-## Prefácio
+## Introducao
 
 Nos ultimos anos as empresas que possuem produtos, solucoes e demais servicos digitais estao passando por um demanda, esta demanda nao é somente de novos clientes, 
 mas de qualidade e confiabilidade em seus softwares online, todos os especialistas de T.I confirmam que a melhor estratégia é testar bem as novas solucoes e as solucoes que já 
