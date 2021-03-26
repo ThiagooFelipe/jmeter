@@ -25,7 +25,7 @@ Para levantar qual nivel de performance o seu software precisa atingir, voce dev
 - Garantir que processos em malha não estejam no mesmo contexto de um software online e publico;
 - Evitar validacoes exessivas visuais ao cliente final, seu software deve ser inteligente (Possuir dominios de dados, pre-cadastros, maquinas de estado que armazenam de onde ele parou, etc);
 - Evitar preenchimentos de dados excessivos, o processo deve ser inteligente e já conhecer o cliente, apenas realizar o que ele precisa e com confirmacoes rapidas;
-- Simule seu software em redes moveis, esta pratica vai te trazer uma visao sintetica de problemas comuns que ocorrem em cenarios baixa largura de banda;
+- Simule seu software em redes moveis, esta pratica vai te trazer uma visao sintetica de problemas comuns que ocorrem em cenarios com baixa largura de banda;
 
 #### Otimizacao de Código Fonte/Produto
 - Garantir que o código fonte do software esteja em sua melhor versao (Sem bugs);
