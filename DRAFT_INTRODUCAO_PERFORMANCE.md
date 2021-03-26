@@ -15,7 +15,7 @@ conversar com outro software de 2021, imaginou, espero que sim. Este cenario oco
 interessante da integracao legada é que varios softwares precisam se comunicar com sistemas que foram desenvolvidos a varios anos atras, mas ninguem verifica se a integracao 
 é rápida ou até mesmo confiavel, esta informacao nao esta normalmente documentada e é por este motivo que voce precisa aprender alguns conceitos de performance, justamente para entender que é necessario documentar os objetivos e avaliar por meios de novos testes.
 
-O termo Performance é avaliado em termos de eficiência, de rendimento, de comprovacao, ou seja, para garantir que um software A tenha essas caracteristicas, precisamos realizar uma serie de testes que ajudem a comprovar estas necessidades.
+O termo Performance é avaliado em termos de eficiência, de rendimento, de comprovacao, ou seja, para garantir que um software A tenha essas caracteristicas, precisamos realizar uma serie de testes que ajudem a comprovar estas necessidades. Além de realizar uma analise complexa de como nosso software foi desenvolvido e como ele é mantido em ambiente operacional mais conhecido como ambiente produtivo.
 
 Para levantar qual nivel de performance o seu software precisa atingir, voce deve ter em mente qual o nivel de SLA (Acordo de nível de serviço), que prendente entregar a seu cliente final, este é o melhor indicador inicial que voce pode documentar. Quando queremos entregar muita performance, devemos explicar os motivos e em quais areas do software e seu ciclo de desenvolvimento vamos atuar mais para extrair desempenho, para ajudar a focar no que devemos priorizar por uma escala de prioridades conhecidas, voce deve avaliar esta lista:
 
