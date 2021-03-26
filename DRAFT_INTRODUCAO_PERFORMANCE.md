@@ -17,7 +17,22 @@ interessante da integracao legada é que varios softwares precisam se comunicar 
 
 O termo Performance é avaliado em termos de eficiência, de rendimento, de comprovacao, ou seja, para garantir que um software A tenha essas caracteristicas, precisamos realizar uma serie de testes que ajudem a comprovar estas necessidades.
 
-Para levantar qual nivel de performance o seu software precisa atingir, voce deve ter em mente qual o nivel de SLA (Acordo de nível de serviço), que prendente entregar a seu cliente final, este é o melhor indicador inicial que voce pode documentar. Quando queremos entregar muita performance, devemos explicar o motivo e quais niveis
+Para levantar qual nivel de performance o seu software precisa atingir, voce deve ter em mente qual o nivel de SLA (Acordo de nível de serviço), que prendente entregar a seu cliente final, este é o melhor indicador inicial que voce pode documentar. Quando queremos entregar muita performance, devemos explicar os motivos e em quais areas vamos atuar mais para extrair desempenho, para ajudar a focar no que devemos priorizar por uma escala de prioridades conhecidas, voce deve avaliar esta lista:
+
+- Experiencia do usuario
+-- Funcionalidades de negocios que sao complexas demais (Processos longos e cheio de formularios complexos);
+-- Otimizacao do processo de remocao, inclusao;
+-- Garantir que processos em malha não estejam no mesmo contexto de um software online e publico;
+-- Evitar validacoes exessivas visuais ao cliente final, seu software deve ser inteligente (Possuir dominios de dados, pre-cadastros, maquinas de estado que armazenam de onde ele parou, etc);
+-- Evitar preenchimentos de dados excessivos, o processo deve ser inteligente e já conhecer o cliente, apenas realizar o que ele precisa e com confirmacoes rapidas;
+-- Simule seu software em redes moveis, esta pratica vai te trazer uma visao sintetica de problemas comuns que ocorrem em cenarios baixa largura de banda;
+
+- Otimizacao de Código Fonte/Produto
+-- Garantir que o código fonte do software esteja em sua melhor versao (Sem bugs);
+-- Validar se os testes unitarios possuem coberturas completas do codigo fonte (Validacoes automaticas de cobertura em cada nova versao);
+-- Validar constantemente os testes funcionais, de integracao com outros softwares e de regressao para bugs já identificados;
+-- Garantir que as versoes estejam armazenadas de forma cronologica com um historico descritivo do que foi melhorado ou adicionado na versao corrente do software;
+
 
 Existem varias formas de validar se um software possui performance, neste artigo voce verá alguns exemplos de como cada tipo de teste pode ajudar a validar o quao é performático o seu software.
 
