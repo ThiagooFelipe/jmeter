@@ -21,6 +21,10 @@ O termo Performance é avaliado em termos de eficiência, de rendimento, de comp
 
 Para levantar qual nivel de performance o seu software precisa atingir, voce deve ter em mente qual o nivel de SLA (Acordo de nível de serviço), que prendente entregar a seu cliente final, este é o melhor indicador inicial que voce pode documentar. Quando queremos entregar muita performance, devemos explicar os motivos e em quais areas do software e seu ciclo de desenvolvimento vamos atuar mais para extrair desempenho, para ajudar a focar no que devemos priorizar por uma escala de prioridades conhecidas, voce deve avaliar esta lista:
 
+<hr />
+
+Antes de ir diretamente para a tão desejada Performance, voce deve entender que para obter Performance, temos que pensar em toda a cultura que um software teve para ser desenvolvido, a cultura, os frameworks, as necessidades exigidas, o tamanho do projeto e os milhares de requisitos funcionais a equipe que o desenvolveu teve como trilha para entregar um software gerando e agregando valor no negoio. Nem sempre notamos os detalhes de algo que nao foi construido por nós, mas precisamos aprofundar esse contexto para descobrir quais problemas encontraremos quando almejamos ter mais performance e demais beneficios com essa nova jornada, separei estes tópicos com listas para que voce consiga avaliar se o software que voce deseja avaliar a performance realmente será possivel extrair tudo que pode ser extraido.
+
 #### Experiencia do usuario
 - Funcionalidades de negocios que sao complexas demais (Processos longos e cheio de formularios complexos);
 - Otimizacao do processo de remocao, inclusao;
