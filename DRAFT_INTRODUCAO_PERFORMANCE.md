@@ -13,7 +13,7 @@ mas nao se preocupe, existe um nome para isso e se chama interoperabilidade, est
 Essas interoperabilidades são de longe o maior problema que uma empresa que busca melhorar seus servicos digitais possui, imagine um software desenvolvido em 2000 que precisa 
 conversar com outro software de 2021, imaginou, espero que sim. Este cenario ocorre milhares de vezes em varios nichos de negocio e é classificado como integracao legada, o 
 interessante da integracao legada é que varios softwares precisam se comunicar com sistemas que foram desenvolvidos a varios anos atras, mas ninguem verifica se a integracao 
-é rápida ou até mesmo confiavel, esta informacao nao esta normalmente documenta e é por este motivo que voce precisa aprender alguns conceitos de performance.
+é rápida ou até mesmo confiavel, esta informacao nao esta normalmente documentada e é por este motivo que voce precisa aprender alguns conceitos de performance, justamente para entender é necesseraio documentar os objetivos e avaliar por meios de novos testes.
 
 O termo Performance é avaliado em termos de eficiência, de rendimento, de comprovacao, ou seja, para garantir que um software A possui uma interoperabilidade adequada com o 
 Software B precisamos avaliar a eficiencia e seu rendimento. Existem varias formas de validar a aplicacao
