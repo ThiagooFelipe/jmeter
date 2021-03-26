@@ -1,5 +1,10 @@
 # Introducao a Performance de Software
 
+
+Autor                               | Revisão              | Data                      |
+----------------------------------- | ---------------------|---------------------------|
+Jean Carlos Bezerra Macena da Silva | 1.0                  | 26/03/2021                |
+
 ## Introducao
 
 Nos ultimos anos as empresas que possuem produtos, solucoes e demais servicos digitais estao passando por um demanda, esta demanda nao é somente de novos clientes, 
