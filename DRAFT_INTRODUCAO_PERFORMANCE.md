@@ -42,16 +42,16 @@ Antes de ir diretamente para a tão desejada Performance, voce deve entender que
 
 Existem varias formas de validar se um software possui performance, neste artigo voce verá alguns exemplos de como cada tipo de teste pode ajudar a validar o quao é performático o seu software.
 
-### Tipos de testes de performance
+## Tipos de testes de performance
 
-### Metricas de performance
+## Metricas de performance
 
-### Monitoramento de software
+## Monitoramento de software
 
-### Porque devo testar sempre?
+## Porque devo testar sempre?
 
-### Qualidade VS Performance
+## Qualidade VS Performance
 
-### Performance VS Custos de Infraestrutura
+## Performance VS Custos de Infraestrutura
 
 ## Mais clientes, mais Servidores?
