@@ -1,4 +1,4 @@
-# DRAFT Introducao a Performance
+# Introducao a Performance de Software
 
 ## Introducao
 
