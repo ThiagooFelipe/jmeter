@@ -53,3 +53,5 @@ Existem varias formas de validar se um software possui performance, neste artigo
 ### Porque devo testar sempre?
 
 ### Performance VS Custos de Infraestrutura
+
+## Mais clientes, mais Servidores?
