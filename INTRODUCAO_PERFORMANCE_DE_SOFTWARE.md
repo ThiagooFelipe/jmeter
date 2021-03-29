@@ -3,7 +3,8 @@
 
 Autor                               | Revisão              | Data                      |
 ----------------------------------- | ---------------------|---------------------------|
-Jean Carlos Bezerra Macena da Silva | 1.0                  | 26/03/2021                |
+Jean Carlos Bezerra Macena da Silva | 1.0                  | 23/03/2021                |
+Jean Carlos Bezerra Macena da Silva | 1.1                  | 26/03/2021                |
 
 ## Introducao
 
