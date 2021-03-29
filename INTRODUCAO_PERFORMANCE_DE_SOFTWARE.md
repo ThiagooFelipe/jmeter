@@ -46,7 +46,33 @@ Existem diferentes tipos de teste para cada necessidade de comprovacao, e nao de
 
 ### 1 - Load Test
 
+#### Descricao:
+
+O teste de carga determinará se o sistema precisa ser ajustado ou a modificação de hardware e software é necessária para melhorar o desempenho.
+
+#### Objetivos: 
+
+- Tempo de resposta para cada transação;
+- Desempenho dos componentes do sistema sob várias cargas planejadas;
+- Desempenho dos componentes do banco de dados sob diferentes cargas;
+- Atraso de rede entre o cliente e o servidor (Latência);
+- Problemas de design de software;
+- Problemas de configuração do servidor, como servidor Web, servidor de aplicativos, servidor de banco de dados, etc;
+- Problemas de limitação de hardware, como maximização da CPU, limitações de memória, gargalo de rede, etc.
+
 ### 2 - Endurence Test
+
+#### Descricao:
+
+#### Objetivos: 
+
+- O objetivo principal do teste de resistência é verificar se há vazamentos de memória;
+- Para descobrir como o sistema funciona sob uso contínuo;
+- Para garantir que após um longo período, o tempo de resposta do sistema permanecerá o mesmo ou melhor do que o início do teste;
+- Para determinar o número de usuários e / ou transações, um determinado sistema oferecerá suporte e atenderá às metas de desempenho;
+- Para gerenciar as cargas futuras, precisamos entender quantos recursos adicionais (como capacidade do processador, capacidade do disco, uso da memória ou largura de banda da rede) são necessários para dar suporte ao uso no futuro;
+- O teste de resistência geralmente é feito sobrecarregando o sistema ou reduzindo certos recursos do sistema e avaliando as consequências;
+- É executado para garantir que não ocorram defeitos ou vazamentos de memória após o que é considerado um período de uso relativamente "normal";
 
 ### 3 - Volume Test
 
