@@ -78,7 +78,18 @@ O teste de carga determinará se o sistema precisa ser ajustado ou a modificaç�
 
 ### 4 - Spike Test
 
+#### Descricao:
+
+O teste de pico é um tipo de teste de desempenho no qual um aplicativo recebe um aumento ou diminuição repentina e extrema da carga. O objetivo do teste de pico é determinar o comportamento de um aplicativo de software quando ele recebe variações extremas de tráfego. O teste de pico aborda mais do que apenas a carga máxima de um aplicativo; ele também verifica o tempo de recuperação de um aplicativo entre os picos de atividade. A palavra “pico” refere-se ao aumento ou diminuição repentina do tráfego.
+Durante um teste de pico, os testadores podem descobrir que o desempenho do aplicativo piora, diminui ou pára totalmente. Determinar o que e onde um aplicativo falha nos testes de pico permite que os desenvolvedores se preparem melhor para picos inesperados de carga durante os ambientes de produção. Por exemplo, seria uma boa ideia testar um aplicativo de comércio eletrônico para se preparar para as vendas da Black Friday.
+
 ### 5 - Scalability Test
+
+#### Descricao:
+
+O teste de escalabilidade é um método de teste não funcional que mede o desempenho de um sistema ou rede quando o número de solicitações do usuário é aumentado ou diminuído. O objetivo do teste de escalabilidade é garantir que o sistema possa lidar com o aumento projetado no tráfego de usuários, volume de dados, frequência de contagens de transações, etc. Ele testa a capacidade do sistema de atender às necessidades crescentes.
+
+Também é conhecido como teste de desempenho, pois se concentra no comportamento do aplicativo quando implantado em um sistema maior ou testado sob carga excessiva. Em Engenharia de Software, o Teste de Escalabilidade é medir em que ponto o aplicativo para de escalar e identificar o motivo por trás disso.
 
 ### 6 - Stress Test
 
