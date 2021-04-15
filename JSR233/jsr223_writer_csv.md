@@ -1,4 +1,4 @@
-
+# Gravar um arquivo CSV com o componente JSR223 do JMeter utilizando Java (Beanshell):
 
 ```java
 import java.lang.*;
@@ -26,4 +26,10 @@ out.write(row);
 out.write(System.getProperty("line.separator"));
 out.close();
 fstream.close();
+```
+
+## Para o componente não ser exibido nos Listerners, utilize um JSR223 PostProcessor com o seguinte script
+
+```sh
+prev.setIgnore();
 ```
