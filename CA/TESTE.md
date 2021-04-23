@@ -1,15 +1,12 @@
-O teste do Seguro Garantia demonstrou que a aplicacao possui estabilidade em todas as baterias executadas;
+O teste do Seguro Garantia demonstrou que a aplicação possui estabilidade em todas as baterias executadas;
 
-O tempo de processamento do Seguro Garantia com todos os cenarios foi de até 296 ms (Percentil 95%) com 40 Threads;
+O tempo de processamento do Seguro Garantia com todos os cenários foi de até 296 ms (Percentil 95%) com 40 Threads;
+O tempo de processamento do Seguro Garantia com todos os cenários foi de até 695 ms (Percentil 95%) com 100 Threads;
+O processamento do Seguro Garantia com somente o cenário "1.1 - POST - APOLICE" foi de até de 64 ms (Percentil 95%) com 40 Threads e 100 Threads demonstrando estabilidade em diferentes cargas;
 
-O tempo de processamento do Seguro Garantia com todos os cenarios foi de até 695 ms (Percentil 95%) com 100 Threads;
+Avaliando a volumetria do log das aplicações testadas (maior que 5GB), identificamos que a verbosidade das aplicações está alta. Recomendamos diminuir a verbosidade dos logs para aumentar a escala atual da vazão das aplicações e reduzir o consumo dos armazenamentos secundários.
 
-Avaliando a volumetria do log das aplicacoes testadas (maior que 5GB), identificamos que a verbosidade das aplicacoes estao altas. Recomendamos diminuir
-a verbosidade dos logs para aumentar a escala da vazao da aplicacao e reduzir o consumo dos armazenamentos secundarios.
-
-O teste do resseguro falhou, uma vez que o cenario da aplicacao possui restricoes na massa automatizada utilizada;
-
-
+O teste do Resseguro falhou, uma vez que o cenário da aplicação possui restrições na massa automatizada utilizada;
 
 
 
