@@ -175,3 +175,24 @@ jmeter.save.saveservice.idle_time=true
 # Since JMeter 2.10, this is false by default
 #jmeter.save.saveservice.autoflush=false
 ```
+
+
+# Configuracao de Memória RAM
+
+- jmeter.bat (line 148)
+ 
+```sh
+set HEAP=-Xms16g -Xmx24g -XX:MaxMetaspaceSize=2048m
+
+if not defined HEAP (
+    rem See the unix startup file for the rationale of the following parameters,
+    rem including some tuning recommendations
+    set HEAP=-Xms16g -Xmx24g -XX:MaxMetaspaceSize=2048m
+)
+```
+
+- jmeter.sh (line 32)
+
+```sh
+JVM_ARGS="-server -d64 -Xms16g -Xmx24g -XX:NewSize=512m -XX:MaxNewSize=512m -XX:+UseConcMarkSweepGC -XX:+DisableExplicitGC"
+```
