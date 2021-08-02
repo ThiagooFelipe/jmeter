@@ -18,7 +18,7 @@
 
 - Ao incluir os requitos, o robô deve ficar igual ao da figura apresentada a seguir.
 
-![Simple Arch](https://github.com/ThaynaraDaSilva/Performance4U/blob/2b471ff836764b07bbf2c841b70dbcfd62dea292/images/teste-plan-elements.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/teste-plan-elements.png?raw=true)
 
 - Estes elementos são primordiais para que o robô atenda as configurações necessárias do Performance4U.
 
@@ -32,7 +32,7 @@
     2. Escolha a opção *Add*
     3. Escolha a opção  *Thread Group*
 
-![Simple Arch](https://github.com/ThaynaraDaSilva/Performance4U/blob/95683a20496964fc78b51cbbc581763c0422787a/images/how-to-add-thread-group.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/how-to-add-thread-group.png?raw=true)
 ´
 #### Aggregate Report Listener
 
@@ -43,7 +43,7 @@
     3. Escolha a opção *Listener*
     4. Escolha a opção *Aggregate Report*
 
-![Simple Arch](https://github.com/ThaynaraDaSilva/Performance4U/blob/95683a20496964fc78b51cbbc581763c0422787a/images/how-to-add-aggregate-report.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/thread-group-parameters.png?raw=true)
 
 ### Parâmetros Obrigatórios
 
@@ -65,16 +65,16 @@
 
 - No Thread Group, incluir os parâmetros da mesma forma que apresentado na figura a seguir:
 
-![Simple Arch](https://github.com/ThaynaraDaSilva/Performance4U/blob/e216dbc27996780512975dfe7b5e4f9360453ee3/images/thread-group-parameters.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/thread-group-parameters.png?raw=true)
 
 #### Aggregate Report Listener
 
 - No Aggregate Reporto será necessário a inclusão do parâmetro: ***${__P(aggregate)}*** e esta configuração deve ser feita da mesma forma que apresentado na figura a seguir:
 
-![Simple Arch](https://github.com/ThaynaraDaSilva/Performance4U/blob/e216dbc27996780512975dfe7b5e4f9360453ee3/images/aggregate-report-parameters.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/aggregate-report-parameters.png?raw=true)
 
 ##### Aggregate Report Listener Sample Result Save Configuration
 
 - É de extrema importancia que as configurações do Sample Result Save Configuration siga o template apresentado na figura a seguir para que não impacte na maquina de cálculo (responsável pelo resultado final do teste).
 
-![Simple Arch](https://github.com/ThaynaraDaSilva/Performance4U/blob/31fd3145c6a80e2663337365c2860f4ed53ae5b4/images/aggregate-sample-result-config.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/aggregate-sample-result-config.png?raw=true)
