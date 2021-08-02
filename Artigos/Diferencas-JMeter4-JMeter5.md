@@ -51,6 +51,7 @@ Essas requisições são geradas se a opção Follow Redirects em uma HTTP Reque
 
 </br>
 OBS:
+</br>
 - Antes de aplicar as soluções apresentadas anteriormente deve-se avaliar como a remoção do registro das requisições redirecionadas impactam no resultado final, pois podem ser importantes para o cenário de teste.
 
 - Faça essa avaliação a cada demanda.
