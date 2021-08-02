@@ -43,7 +43,7 @@
     3. Escolha a opção *Listener*
     4. Escolha a opção *Aggregate Report*
 
-![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/0fc9ea2102f49d6aa4ac221a6276b34e223e93cc/Artigos/img/thread-group-parameters.png?raw=true)
+![Simple Arch](https://github.com/jeancbezerra/jmeter/blob/4df473e4cf0929791b930239c46c39df377c297d/Artigos/img/how-to-add-aggregate-report.png?raw=true)
 
 ### Parâmetros Obrigatórios
 
