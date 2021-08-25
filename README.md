@@ -62,7 +62,8 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
 - `hotjar`
 - `tap`
 - `pingdom`
-- 
+
+
 ## Práticas
 
 <ol>
