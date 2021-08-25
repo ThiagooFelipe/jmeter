@@ -1,5 +1,9 @@
 # Firefox Tips
 
+## Proxy
+
+- Digite o comando `about:preferences#advanced` para abrir as configurações  do navegador e configurar o proxy
+
 ## Desabilitar Capite Portal do Firefox (success.txt) nas gravacões Record Script
 
 - Digite este comando na URL BOX do Firefox `about:config` e confirme o ponto de atencão que o navegador vai exibir
