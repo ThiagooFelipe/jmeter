@@ -53,7 +53,7 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
   --loglevel
  ```
 
-## Limpeza dos Scripts
+## Limpeza dos Scripts de robôs que são para aplicações Web/Sites
 
 - `analytics`
 - `facebook`
