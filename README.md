@@ -53,6 +53,16 @@ jmeter.sh --nongui --testfile <BOT_SCRIPT>
   --loglevel
  ```
 
+## Limpeza dos Scripts
+
+- `analytics`
+- `facebook`
+- `youtube`
+- `onetrust`
+- `hotjar`
+- `tap`
+- `pingdom`
+- 
 ## Práticas
 
 <ol>
