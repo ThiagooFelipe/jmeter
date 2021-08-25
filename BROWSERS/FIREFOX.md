@@ -24,5 +24,10 @@
 - Digite este comando na URL BOX do Firefox `about:config` e confirme o ponto de atencão que o navegador vai exibir
 - Informe a configuracão `security.tls.version.fallback-limit` para pesquisar a propriedade e então mude de `4` para `3`
 
+
 - Digite este comando na URL BOX do Firefox `about:config` e confirme o ponto de atencão que o navegador vai exibir
 - Informe a configuracão `security.tls.version.max` para pesquisar a propriedade e então mude de `4` para `3`
+
+
+- Digite este comando na URL BOX do Firefox `about:config` e confirme o ponto de atencão que o navegador vai exibir
+- Informe a configuracão `hsts` para pesquisar a propriedade e então mude de `true` para `false`
