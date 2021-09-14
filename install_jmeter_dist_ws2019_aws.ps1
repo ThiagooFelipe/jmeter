@@ -6,8 +6,8 @@
 # Open PowerShell
 # Exe: wget https://raw.githubusercontent.com/jeancbezerra/jmeter/master/install_jmeter_dist_ws2019_aws.ps1 -OutFile install_jmeter_dist_ws2019_aws.ps1
 
-New-Item -Path C:\BOTS\OUTPUTS\ -ItemType directory
-New-Item -Path C:\YAMAN\ -ItemType directory
+New-Item -Path C:\BOTS\OUTPUTS\ -ItemType directory -Force
+New-Item -Path C:\YAMAN\ -ItemType directory -Force
 
 cd C:\YAMAN\
 wget https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.4.1.zip -OutFile apache-jmeter-5.4.1.zip
