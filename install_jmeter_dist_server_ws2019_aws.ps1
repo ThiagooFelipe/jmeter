@@ -7,6 +7,7 @@
 # Exec: wget https://raw.githubusercontent.com/jeancbezerra/jmeter/master/install_jmeter_dist_server_ws2019_aws.ps1 -OutFile install_jmeter_dist_server_ws2019_aws.ps1
 # Exec: ./install_jmeter_dist_server_ws2019_aws.ps1
 
+New-Item -Path C:\YAMAN\ -ItemType directory -Force
 cd C:\YAMAN\
 
 Get-ChildItem -Path C:\YAMAN\apache-jmeter-5.4.1.zip -File -Recurse | Remove-Item -Verbose
