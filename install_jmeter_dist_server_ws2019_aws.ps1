@@ -13,7 +13,6 @@ New-Item -Path C:\yaman-server\ -ItemType directory -Force
 cd C:\yaman-server\
 
 wget https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/apache-jmeter-5.4.1.zip -OutFile C:\yaman-server\apache-jmeter-5.4.1.zip
-wget https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/apache-jmeter-5.4.1.zip -OutFile C:\yaman-server\apache-jmeter-5.4.1.zip
 Expand-Archive -Path C:\yaman-server\apache-jmeter-5.4.1.zip -DestinationPath C:\yaman-server\
 
 $Env:JAVA_HOME='C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot'
