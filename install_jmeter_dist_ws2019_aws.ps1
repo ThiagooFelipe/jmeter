@@ -2,6 +2,9 @@
 # Version: 1.0.0-RELEASE
 # Objective: Prepare env to dist test with JMeter 5.4.1 and Java 11 LTS (AdoptOpenJDK)
 # Date: 14/09/2021
+# How to use:
+# Open PowerShell
+# Exe: wget https://raw.githubusercontent.com/jeancbezerra/jmeter/master/install_jmeter_dist_ws2019_aws.ps1 -OutFile install_jmeter_dist_ws2019_aws.ps1
 
 New-Item -Path C:\BOTS\OUTPUTS\ -ItemType directory
 New-Item -Path C:\YAMAN\ -ItemType directory
