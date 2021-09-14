@@ -4,7 +4,8 @@
 # Date: 14/09/2021
 # How to use:
 # Open PowerShell
-# Exe: wget https://raw.githubusercontent.com/jeancbezerra/jmeter/master/install_jmeter_dist_ws2019_aws.ps1 -OutFile install_jmeter_dist_ws2019_aws.ps1
+# Exec: wget https://raw.githubusercontent.com/jeancbezerra/jmeter/master/install_jmeter_dist_ws2019_aws.ps1 -OutFile install_jmeter_dist_ws2019_aws.ps1
+# Exec: install_jmeter_dist_ws2019_aws.ps1
 
 New-Item -Path C:\BOTS\OUTPUTS\ -ItemType directory -Force
 New-Item -Path C:\YAMAN\ -ItemType directory -Force
