@@ -13,5 +13,6 @@ Get-ChildItem -Path C:\YAMAN\apache-jmeter-5.4.1.zip -File -Recurse | Remove-Ite
 Remove-Item -Path C:\YAMAN\apache-jmeter-5.4.1\ -Force
 
 wget https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/apache-jmeter-5.4.1-server.zip -OutFile apache-jmeter-5.4.1-server.zip
+#wget https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/apache-jmeter-5.4.1-server.zip -OutFile apache-jmeter-5.4.1-server-master.zip
 
 Expand-Archive -Path C:\YAMAN\apache-jmeter-5.4.1-server.zip -DestinationPath C:\YAMAN\
