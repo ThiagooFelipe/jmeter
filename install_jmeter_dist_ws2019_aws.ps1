@@ -11,8 +11,6 @@ New-Item -Path C:\BOTS\OUTPUTS\ -ItemType directory -Force
 New-Item -Path C:\YAMAN\ -ItemType directory -Force
 
 cd C:\YAMAN\
-https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/apache-jmeter-5.4.1.tgz
-
 
 wget https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/apache-jmeter-5.4.1.zip -OutFile apache-jmeter-5.4.1.zip
 wget https://yaman-apm-static-files.s3.sa-east-1.amazonaws.com/OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.msi -OutFile OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.msi
