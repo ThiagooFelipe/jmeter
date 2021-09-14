@@ -13,9 +13,11 @@ New-Item -Path C:\YAMAN\ -ItemType directory -Force
 cd C:\YAMAN\
 wget https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.4.1.zip -OutFile apache-jmeter-5.4.1.zip
 wget https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.12%2B7/OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.msi -OutFile OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.msi
+wget https://msedge.sf.dl.delivery.mp.microsoft.com/filestreamingservice/files/4435014d-a92c-4272-8c83-fdce78f60ced/MicrosoftEdgeEnterpriseX64.msi -OutFile MicrosoftEdgeEnterpriseX64.msi
 
 Expand-Archive -Path C:\YAMAN\apache-jmeter-5.4.1.zip -DestinationPath C:\YAMAN\
 Start-Process C:\YAMAN\OpenJDK11U-jdk_x64_windows_hotspot_11.0.12_7.msi -ArgumentList "/quiet /passive"
+Start-Process C:\YAMAN\MicrosoftEdgeEnterpriseX64.msi -ArgumentList "/quiet /passive"
 
 $Env:JAVA_HOME='C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot'
 $Env:JMETER_HOME='C:\YAMAN\apache-jmeter-5.4.1'
