@@ -28,10 +28,14 @@ cd /usr/lib/jvm/ && ls -lha jre-*
 
 ## Instale o Jenkins pelo sistema de pacotes do Linux
 
+Adicione o repositorio do Jenkins no arquivo de repositorios do YUM, para que o mesmo procure a ultima versão compativel com seu sistema operacional.
+
 ```sh
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 ```
+
+Realize a instalacao e a confirmacao.
 
 ```sh
 sudo yum -y install jenkins
