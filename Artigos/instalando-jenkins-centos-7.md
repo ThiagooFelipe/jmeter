@@ -35,6 +35,19 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 ```
 
+```sh
+sudo tee /etc/yum.repos.d/epelfordaemonize.repo <<EOF
+[daemonize]
+baseurl=https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/
+gpgcheck=no
+enabled=yes
+EOF
+```
+
+```sh
+yum install -y daemonize
+```
+
 Realize a instalacao e a confirmacao.
 
 ```sh
